@@ -5,7 +5,7 @@ import {TbSql} from 'react-icons/tb';
 import Circles from '../../components/Circles';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../variants';
-
+/* eslint-disable react/jsx-key */
 export const aboutData = [
   {
     title: 'skills',
@@ -76,7 +76,7 @@ export const aboutData = [
     ],
   },
 ];
-
+/* eslint-enable react/jsx-key */
 const About = () => {
   const [index, setIndex]= useState(0);
   console.log(index);
@@ -135,7 +135,10 @@ const About = () => {
                 <div>{item.stage}</div>
                 <div className="flex gap-x-4">    
                 {item.icons?.map((icon)=>{
-                  return <div className="text-2xl hover:text-white/100">{icon}</div>;
+                  
+                  return (/* eslint-disable react/jsx-key */
+                    <div className="text-2xl hover:text-white/100">{icon}</div>
+                 /* eslint-enable react/jsx-key */ )
                 })}
                 </div>
               </div>
