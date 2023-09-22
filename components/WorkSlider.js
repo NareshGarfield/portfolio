@@ -10,12 +10,14 @@ export const workSlider = {
     {
       images: [
         {
-          title: 'title',
+          title: 'Portfolio',
           path: '/thumb1.jpg',
+          link: 'https://portfolio-nareshgarfield.vercel.app/',
         },
         {
-          title: 'title',
-          path: '/thumb2.jpg',
+          title: 'Netflix-Clone',
+          path: '/thumb4.jpg',
+          link: 'https://netflix-clone-nareshgarfield.vercel.app/',
         },
         {
           title: 'title',
@@ -23,7 +25,7 @@ export const workSlider = {
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb2.jpg',
         },
       ],
     },
@@ -69,16 +71,28 @@ const WorkSlider = () => {
               <div className='relative rounded-lg overflow-hidden flex 
               items-center justify-center group'key={index}>
                 <div className='flex items-center justify-center relative overflow-hidden group'>
+                
                   <Image src={image.path} width={500} height={300} alt=''/>
                   <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0
-                  group-hover:opacity-80 transition-all duration-700'></div>
+                  group-hover:opacity-80 transition-all duration-700'>
+                  </div>
                   <div className='absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20
-                  transition-all duration-400 text-[13px] tracking-[0.2em]  '>
-                    <div className='flex items-center gap-x-2'>                      
-                        <div className='delay-100'>Live</div>
-                        <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>Project</div>
+                  transition-all duration-400 text-[13px] tracking-[0.2em]  '><div className='text-lg font-semibold '>
+                    <a key={index} href={image.link} target='_blank'>
+                    {image.title}</a></div>
+                    <div className='flex items-center gap-x-2'>                     
+                        <div className='delay-100'><a key={index} href={image.link} target='_blank'>
+                          Live </a>
+                          </div>
+                        <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>
+                        <a key={index} href={image.link} target='_blank'>
+                          Project </a>
+                          </div>
                         <div className='text-xl translate-y-[500%] group-hover:translate-y-0 transition-all 
-                        duration-300 delay-200'><BsArrowRight /></div>
+                        duration-300 delay-200'>
+                          <a key={index} href={image.link} target='_blank'>
+                          <BsArrowRight/></a>
+                     </div>
                    </div>
                   </div>
                 </div>
