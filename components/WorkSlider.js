@@ -12,12 +12,12 @@ export const workSlider = {
         {
           title: 'Portfolio',
           path: '/thumb1.jpg',
-          link: 'https://portfolio-nareshgarfield.vercel.app/',
+          link: 'https://portfolio-ndt.vercel.app/',
         },
         {
           title: 'Netflix-Clone',
           path: '/thumb4.jpg',
-          link: 'https://netflix-clone-nareshgarfield.vercel.app/',
+          link: 'https://netflix-clone-ndt.vercel.app/',
         },
         {
           title: 'title',
