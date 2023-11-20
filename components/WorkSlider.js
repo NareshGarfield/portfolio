@@ -20,8 +20,9 @@ export const workSlider = {
           link: 'https://netflix-clone-ndt.vercel.app/',
         },
         {
-          title: 'title',
-          path: '/thumb3.jpg',
+          title: 'Spotify-Clone',
+          path: '/spotify.png',
+          link: 'https://spotify-clone-ndt.vercel.app/',
         },
         {
           title: 'title',
