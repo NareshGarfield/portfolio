@@ -21,7 +21,7 @@ export const workSlider = {
         },
         {
           title: 'Spotify-Clone',
-          path: '/spotifyh.jpg',
+          path: '/spotify-1.webp',
           link: 'https://spotify-clone-ndt.vercel.app/',
         },
         {
@@ -34,7 +34,7 @@ export const workSlider = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb3.jpg',
         },
         {
           title: 'title',
