@@ -1,11 +1,11 @@
 import Link from "next/link";
-import {RiTelegramLine, RiInstagramLine, RiTwitterLine,
+import {RiGithubLine, RiInstagramLine, RiTwitterLine,
 RiLinkedinLine, RiDiscordLine, RiRedditLine} from 'react-icons/ri';
 const Socials = () => {
   return (
   <div className="flex items-center gap-x-5 text-lg">
-    <Link href={'https://telegram.me/ronin_kazuha'} className="hover:text-accent transition-all duration-300">
-      <RiTelegramLine />
+    <Link href={'https://github.com/NareshGarfield'} className="hover:text-accent transition-all duration-300">
+      <RiGithubLine />
     </Link>
     <Link href={'https://instagram.com/ifrit.n?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D'} className="hover:text-accent transition-all duration-300">
       <RiInstagramLine />
