@@ -27,6 +27,7 @@ export const workSlider = {
         {
           title: 'Hanashi',
           path: '/hanashii.jpg',
+          link: 'https://hanashi-ndt.vercel.app/',
         },
       ],
     },
