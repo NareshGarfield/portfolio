@@ -25,8 +25,8 @@ export const workSlider = {
           link: 'https://spotify-clone-ndt.vercel.app/',
         },
         {
-          title: 'title',
-          path: '/thumb2.jpg',
+          title: 'Hanashi',
+          path: '/hanashii.jpg',
         },
       ],
     },
