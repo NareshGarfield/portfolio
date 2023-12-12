@@ -26,7 +26,7 @@ export const workSlider = {
         },
         {
           title: 'Hanashi',
-          path: '/hanashii.jpg',
+          path: '/chatapp.jpeg',
           link: 'https://hanashi-ndt.vercel.app/',
         },
       ],
