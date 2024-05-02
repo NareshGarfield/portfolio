@@ -10,9 +10,9 @@ export const workSlider = {
     {
       images: [
         {
-          title: 'Portfolio',
-          path: '/thumb1.jpg',
-          link: 'https://portfolio-git-main-nareshgarfield.vercel.app/',
+          title: 'Housing Rental',
+          path: '/Houserentals.jpg',
+          link: 'https://housing-rental-ndt.vercel.app/',
         },
         {
           title: 'Netflix-Clone',
@@ -26,7 +26,7 @@ export const workSlider = {
         },
         {
           title: 'Hanashi',
-          path: '/chatapp.jpeg',
+          path: '/chatting.jpg',
           link: 'https://hanashi-ndt.vercel.app/',
         },
       ],
