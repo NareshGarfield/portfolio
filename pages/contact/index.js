@@ -18,18 +18,23 @@ const Contact = () => {
         className='h2 text-center mb-12'>
           Let&apos;s <span className='text-accent'>Connect..</span>
         </motion.h2>
-        <motion.form 
+        <motion.form action='https://formspree.io/f/mjvnldwp' method='POST'
         variants={fadeIn('up',0.4)}
         initial='hidden'
         animate='show'
         exit='hidden'
         className='flex flex-1 flex-col gap-6 w-full mx-auto'>
         <div className='flex gap-x-6 w-full'>
-          <input type='text' placeholder='Name' className='input'/>
-          <input type='text' placeholder='Email' className='input'/>
+          <input type='text' placeholder='Name' name='name'
+          className='input' required/>
+          <input type='email' placeholder='Email' name='email'
+          className='input' required/>
         </div>
-          <input type='text' placeholder='Subject' className='input'/>
-          <textarea placeholder='message' className='textarea'></textarea>
+          <input type='text' placeholder='Subject' name='subject'
+          className='input' required/>
+          <textarea placeholder='message' name='message'
+          className='textarea' required>
+          </textarea>
           <button className='btn rounded-full border border-white/50 max-w-[170px] px-8
           transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group'>
             <span className='group-hover:-translate-y-[120%] group-hover:opacity-0
