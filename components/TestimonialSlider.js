@@ -5,133 +5,133 @@ export const testimonialSlider = [
     name: 'Naveenkumar RV',
     position: 'RPA Developer',
     message:
-      '~ He has a talent for turning data into insights and creating intuitive stuff. His dedication to web development and data science is evident.',
+      '~ He has a talent for turning data into insights and creating intuitive stuff.',
   },
   {
     image: '/Samy.png',
     name: 'Mathivanan S',
     position: 'Stock Analyst',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit!',
   },
   {
     image: '/Vinesh.png',
     name: 'Vinesh Raj',
     position: 'UI/UX Designer',
     message:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit!',
   },
   {
     image: '/Prakash.png',
     name: 'Prakash G',
     position: 'Data Scientist',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit!',
   },
   {
     image: '/Masc.png',
     name: 'Hari Hara Raj V',
     position: 'UI/UX Designer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Rujith.png',
     name: 'Sree Rujith S',
-    position: 'Salesforce Developer',
+    position: 'Salesforce Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Srini.png',
     name: 'Srinivasan K',
     position: 'Automation Engineer',
     message:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/HariVicky.png',
     name: 'Hari Vignesh M',
     position: 'Technical Support',
     message:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Parasu.png',
     name: 'Parasuraman S',
     position: 'Integrity Engineer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Scythe.png',
-    name: 'Mohammed Mushamil',
-    position: 'Full-Stack Developer',
+    name: 'Mushamil',
+    position: 'Full-Stack Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     },
   {
     image: '/Praveen.png',
     name: 'Praveen R',
-    position: 'Full-Stack Developer',
+    position: 'Full-Stack Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     },
   {
     image: '/KKb1.png',
     name: 'Kishorekumar B',
     position: 'SAP Developer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Karthi.png',
     name: 'Karthi S',
     position: 'Business',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/sT-Hari.png',
     name: 'Sri Hari SK',
-    position: 'Full-Stack Developer',
+    position: 'Full-Stack Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Santosh.png',
     name: 'Santhosh Sivan',
     position: 'UI/UX DESIGNER',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Musthaqil.png',
-    name: 'Mohammad Musthaqil',
-    position: 'ServiceNow Developer',
+    name: 'Musthaqil',
+    position: 'ServiceNow Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/MoPraveen.png',
     name: 'Mohana Prawin E',
     position: 'Developer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Saranya.png',
     name: 'Saranya GJ',
-    position: 'Full-Stack Developer',
+    position: 'Full-Stack Dev',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/Karthika.png',
     name: 'Karthika K',
     position: 'Developer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 ];
 
