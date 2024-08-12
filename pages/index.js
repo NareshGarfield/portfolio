@@ -26,7 +26,7 @@ const Home = () => {
         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl-mb-16 text-lg">
           The best way to predict the future is to invent it. And the best way to invent it is to understand the data. - Kirk Borne</motion.p>
           <div className="flex justify-center relative xl:hidden">
-          <Image src={'/Ore.png'} width={200} height={200} alt=""
+          <Image src={'/Ore.png'} width={150} height={150} alt=""
           className="translate-z-0"/>
          
           </div>
