@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import {FaHtml5, FaCss3, FaJs, FaJava, FaReact, FaPython, } from 'react-icons/fa';
-import {SiNextdotjs, SiTailwindcss, SiMongodb} from 'react-icons/si';
+import { FaJs, FaReact, FaPython } from 'react-icons/fa';
+import {SiNextdotjs, SiMongodb} from 'react-icons/si';
 import {TbSql} from 'react-icons/tb';
 import Circles from '../../components/Circles';
 import {motion} from 'framer-motion';
@@ -11,20 +11,17 @@ export const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <SiTailwindcss/>,
-          <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
+          <FaJs />,
           <SiMongodb/>,
         ],
       },
       {
         title: 'Programming languages',
-        icons: [<FaJava />, <FaPython/>, <TbSql/>],
+        icons: [<FaPython/>, <TbSql/>],
       },
     ],
   },
@@ -35,23 +32,11 @@ export const aboutData = [
         title: 'The Web Developer Bootcamp 2023, Udemy',
         stage: 'May 2023',
       },
-      // {
-      //   title: 'Adobe Design Achievement Awards - Finalist',
-      //   stage: '2009 - 2010',
-      // },
     ],
   },
   {
     title: 'experience',
     info: [
-      // {
-      //   title: 'UX/UI Designer - XYZ Company',
-      //   stage: '2012 - 2023',
-      // },
-      // {
-      //   title: 'Web Developer - ABC Agency',
-      //   stage: '2010 - 2012',
-      // },
        {
         title: 'Intern - Neelan Oxysoft Pvt.Ltd',
         stage: 'Dec 2021 - Mar 2022',
@@ -61,14 +46,6 @@ export const aboutData = [
   {
     title: 'implant Training',
     info: [
-      // {
-      //   title: 'Web Development - ABC University, LA, CA',
-      //   stage: '2011',
-      // },
-      // {
-      //   title: 'Computer Science Diploma - AV Technical Institute',
-      //   stage: '2009',
-      // },
       {
         title: 'MD Info-Tech Solutions, Erode',
         stage: '2020',
@@ -98,7 +75,7 @@ const About = () => {
         variants={fadeIn('right',0.2)} 
         initial='hidden' 
         animate='show' 
-        exit='hidden'>The web development</motion.h2> 
+        exit='hidden'>Development</motion.h2> 
         <motion.p className="text-2xl"
         variants={fadeIn('right',0.4)} 
         initial='hidden' 
