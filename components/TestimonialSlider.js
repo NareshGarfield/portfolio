@@ -1,23 +1,135 @@
 
 export const testimonialSlider = [
   {
-    image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    image: '/Naveen.png',
+    name: 'Naveenkumar RV',
+    position: 'RPA Developer',
+    message:
+      '~ He has a talent for turning data into insights and creating intuitive stuff. His dedication to mastering web development and data science is evident.',
+  },
+  {
+    image: '/Samy.png',
+    name: 'Mathivanan S',
+    position: 'Stock Analyst',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
-    image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    image: '/Vinesh.png',
+    name: 'Vinesh Raj',
+    position: 'UI/UX Designer',
+    message:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Prakash.png',
+    name: 'Prakash G',
+    position: 'Data Scientist',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
   {
-    image: '/t-avt-3.png',
-    name: 'Jhon Doe',
-    position: 'Customer',
+    image: '/Masc.png',
+    name: 'Hari Hara Raj V',
+    position: 'UI/UX Designer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Rujith.png',
+    name: 'Sree Rujith S',
+    position: 'Salesforce Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Srini.png',
+    name: 'Srinivasan K',
+    position: 'Automation Engineer',
+    message:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/HariVicky.png',
+    name: 'Hari Vignesh M',
+    position: 'Technical Support',
+    message:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Parasu.png',
+    name: 'Parasuraman S',
+    position: 'Integrity Engineer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Scythe.png',
+    name: 'Mohammed Mushamil',
+    position: 'Full-Stack Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+    },
+  {
+    image: '/Praveen.png',
+    name: 'Praveen R',
+    position: 'Full-Stack Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+    },
+  {
+    image: '/KKb1.png',
+    name: 'Kishorekumar B',
+    position: 'SAP Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Karthi.png',
+    name: 'Karthi S',
+    position: 'Business',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/sT-Hari.png',
+    name: 'Sri Hari SK',
+    position: 'Full-Stack Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Santosh.png',
+    name: 'Santhosh Sivan',
+    position: 'UI/UX DESIGNER',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Musthaqil.png',
+    name: 'Mohammad Musthaqil',
+    position: 'ServiceNow Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/MoPraveen.png',
+    name: 'Mohana Prawin E',
+    position: 'Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Saranya.png',
+    name: 'Saranya GJ',
+    position: 'Full-Stack Developer',
+    message:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+  },
+  {
+    image: '/Karthika.png',
+    name: 'Karthika K',
+    position: 'Developer',
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
@@ -47,8 +159,8 @@ const TestimonialSlider = () => {
          <div className='flex flex-col items-center md:flex-row gap-x-8 h-full px-16'>
           <div className='w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0'>
             <div className='felx flex-col justify-center text-center'>
-              <div className='mb-2 mx-auto'>
-                <Image src={person.image} width={100} height={100} alt=''/>
+              <div className='mb-2 mx-auto rounded-full'>
+                <Image src={person.image} width={140} height={140} alt=''/>
               </div>
               <div className='text-lg'>
                 {person.name}
