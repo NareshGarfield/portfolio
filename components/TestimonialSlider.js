@@ -5,7 +5,7 @@ export const testimonialSlider = [
     name: 'Naveenkumar RV',
     position: 'RPA Developer',
     message:
-      '~ He has a talent for turning data into insights and creating intuitive stuff. His dedication to mastering web development and data science is evident.',
+      '~ He has a talent for turning data into insights and creating intuitive stuff. His dedication to web development and data science is evident.',
   },
   {
     image: '/Samy.png',
@@ -160,7 +160,7 @@ const TestimonialSlider = () => {
           <div className='w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0'>
             <div className='felx flex-col justify-center text-center'>
               <div className='mb-2 mx-auto rounded-full'>
-                <Image src={person.image} width={140} height={140} alt=''/>
+                <Image src={person.image} width={120} height={120} alt=''/>
               </div>
               <div className='text-lg'>
                 {person.name}
