@@ -3,7 +3,7 @@ import ProjectsBtn from '../components/ProjectsBtn';
 import Avatar from '../components/Avatar';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants';
-import Head from "next/head";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -24,9 +24,11 @@ const Home = () => {
         animate='show'
         exit='hidden'
         className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl-mb-16 text-lg">
-          Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</motion.p>
-          <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
+          The best way to predict the future is to invent it. And the best way to invent it is to understand the data. - Kirk Borne</motion.p>
+          <div className="flex justify-center relative xl:hidden">
+          <Image src={'/Ore.png'} width={200} height={200} alt=""
+          className="translate-z-0"/>
+         
           </div>
           <motion.div 
           variants={fadeIn("down",0.4)}
